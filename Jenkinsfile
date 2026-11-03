@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Madhanalekha/node-cidcd.git'
+                    url: 'https://github.com/Madhanalekha/node-ci.git'
             }
         }
 
